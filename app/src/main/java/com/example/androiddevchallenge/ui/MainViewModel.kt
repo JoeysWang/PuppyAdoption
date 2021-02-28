@@ -17,8 +17,8 @@ package com.example.androiddevchallenge.ui
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.androiddevchallenge.data.PuppyDataRepo
 import com.example.androiddevchallenge.data.Puppy
+import com.example.androiddevchallenge.data.PuppyDataRepo
 
 class MainViewModel : ViewModel() {
     val puppyList = MutableLiveData<List<Puppy>>()
@@ -26,7 +26,6 @@ class MainViewModel : ViewModel() {
     val showingDetail = MutableLiveData<Boolean>(false)
     val detailPuppy = MutableLiveData<Puppy>(null)
     val searchText = MutableLiveData<String>("")
-
 
     init {
         puppyList.value = PuppyDataRepo.puppyList

@@ -38,14 +38,11 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onBackPressed() {
-        if (mainViewModel.showingDetail.value == true)
-        {
+        if (mainViewModel.showingDetail.value == true) {
             mainViewModel.showingDetail.value = false
             mainViewModel.detailPuppy.value = null
-        }
-        else
+        } else
             super.onBackPressed()
-
     }
 }
 
