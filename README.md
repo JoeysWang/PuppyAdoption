@@ -16,7 +16,8 @@ In the app，you can browse the photos and information of puppies to find your f
 ## :bulb: Motivation and Context
 <!--- Optionally point readers to interesting parts of your submission. -->
 <!--- What are you especially proud of? -->
-
+- The UI is fully built in Jetpack Compose，and I use animate page transition.
+- Data store use ViewModel
 
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
